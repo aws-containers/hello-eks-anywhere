@@ -69,5 +69,5 @@ curl localhost:8000
 ### Expose the service via ingress or load balancer
 
 You can add an external load balancer to your EKS-A cluster and access the service using an external service IP or through an ingress controller.
-More documentation on how to do that can be found [here](https://eksanywhere.jgarr.net/docs/tasks/workload/loadbalance/).
+More documentation on how to do that can be found [here](https://anywhere.eks.amazonaws.com/docs/tasks/workload/loadbalance/).
 
