@@ -1,0 +1,7 @@
+namespace: eksa-packages
+
+sourceRegistry: "public.ecr.aws/f5b7k4z5"
+
+repository: "packages/hello-eks-anywhere"
+
+tag: "{{hello-eks-anywhere}}"
