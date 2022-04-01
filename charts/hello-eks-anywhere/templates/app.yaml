@@ -30,6 +30,10 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: metadata.name
+        - name: TEST_CONFIG_1
+          value: {{ .Values.config1 | quote}}
+        - name: TEST_CONFIG_2
+          value: {{ .Values.config2 | quote}}
         resources:
           requests:
             memory: "64Mi"
