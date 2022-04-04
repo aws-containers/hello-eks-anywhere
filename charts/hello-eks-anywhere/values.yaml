@@ -1,8 +1,8 @@
 namespace: eksa-packages
 
-sourceRegistry: "public.ecr.aws/f5b7k4z5"
+sourceRegistry: "public.ecr.aws/aws-containers"
 
-repository: "packages/hello-eks-anywhere"
+repository: "hello-eks-anywhere"
 
 tag: "{{hello-eks-anywhere}}"
 
