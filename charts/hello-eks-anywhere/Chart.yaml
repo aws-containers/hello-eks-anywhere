@@ -1,0 +1,8 @@
+apiVersion: v2
+appVersion: 0.1.0
+description: A Helm chart for hello-eks-anywhere, a simple app for testing.
+name: hello-eks-anywhere
+sources:
+- https://github.com/aws-containers/hello-eks-anywhere/
+type: application
+version: 0.1.0
