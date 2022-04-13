@@ -1,11 +1,6 @@
 namespace: eksa-packages
-
 sourceRegistry: "public.ecr.aws/aws-containers"
-
-repository: "hello-eks-anywhere"
-
-tag: "{{hello-eks-anywhere}}"
-
-config1: "test1"
-
-config2: "test2"
+repository: "aws-containers/hello-eks-anywhere"
+tag: "{{aws-containers/hello-eks-anywhere}}"
+title: "Amazon EKS Anywhere"
+subtitle: "Run EKS in your datacenter"
